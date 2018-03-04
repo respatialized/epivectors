@@ -1,0 +1,28 @@
+* PSEUDOVECTORS
+
+A pseudovector consists of three variables: position, orientation, magnitude. Together these form fundamentals of flexible, modular generative art. If all display methods reference these state variables, then they can seamlessly be switched on the fly.
+
+The rest of this document contains an overview of what the project might contain based on initial notes.
+
+* Concepts
++ Position
+Two possible types: polar and cartesian
++ Orientation
+Coordinate-based: polar/cartesian
+Reference-based: absolute/relative
++ Magnitude
+Linear, logarithmic, percentage
+
+* Data structures
++ coord [float float]
++ shp [coord coord float]
+
+* Functions
+~(polar coord)~
+~(cartesian coord)~
+~(relative coord)~
+Switch between coordinate types
+
+~(polar func)~
+~(relative func)~
+Switch between types of drawing functions (higher order function)
