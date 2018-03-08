@@ -1,6 +1,6 @@
-(ns pseudovectors.core-test
+(ns epivectors.core-test
   (:require [clojure.test :refer :all]
-            [pseudovectors.core :refer :all]))
+            [epivectors.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
