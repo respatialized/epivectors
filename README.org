@@ -1,6 +1,6 @@
-* PSEUDOVECTORS
+* EPIVECTORS
 
-A pseudovector consists of three variables: position, orientation, magnitude. Together these form fundamentals of flexible, modular generative art. If all display methods reference these state variables, then they can seamlessly be switched on the fly.
+An epivector consists of three variables: position, orientation, magnitude. Together these form fundamentals of flexible, modular generative art. If all display methods reference these state variables, then they can seamlessly be switched on the fly.
 
 The rest of this document contains an overview of what the project might contain based on initial notes.
 
