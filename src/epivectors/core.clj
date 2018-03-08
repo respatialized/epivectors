@@ -1,4 +1,4 @@
-(ns pseudovectors.core)
+(ns epivectors.core)
 
 (defn foo
   "I don't do a whole lot."
