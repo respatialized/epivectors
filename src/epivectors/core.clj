@@ -1,6 +1,7 @@
 (ns epivectors.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+; why use a defrecord and not a map?
+; for validation
+(defrecord position_cartesian [x y])
+(defrecord orientation_cartesian [x y])
+(defrecord magnitude [m])
